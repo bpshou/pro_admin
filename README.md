@@ -24,3 +24,15 @@ docker run -itd \
     -w /app \
     node:latest
 ```
+
+### 手动创建 Ant-design 项目
+```
+1. 安装ant-design
+npm i @ant-design/pro-cli -g
+
+2. 创建app
+pro create app_admin
+
+3. 安装依赖
+cd app_admin && npm install --legacy-peer-deps
+```
